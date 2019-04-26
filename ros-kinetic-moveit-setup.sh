@@ -38,6 +38,9 @@ echo -e "\e[1m \e[34m >>> Installing Git \e[21m \e[39m"
 echo -e "\e[1m \e[34m >>> Installing MoveIt! \e[21m \e[39m"
   sudo apt-get --yes install ros-kinetic-moveit
 
+echo -e "\e[1m \e[34m >>> Installing roscontrol \e[21m \e[39m"
+  sudo apt-get --yes install ros-kinetic-ros-control ros-kinetic-ros-controllers
+
 
 echo -e "\e[1m \e[34m >>> Configuring workspace \e[21m \e[39m"
 
